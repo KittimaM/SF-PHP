@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size:120%;
+    text-align:center;
+    background:  url(https://lh3.googleusercontent.com/ff7fflwQyXJXKiG3igJMSTO5mUjFfCsNGKWqG-I4RpEmObMSzbyeoqOY8Nv7tMjVj-LFN31k9xWn95ylnVQ=s0)  center;
+}
+.header{
+    width:30%;
+    margin: 0px auto 0px;
+    color: rgb(33, 110, 255);
+    text-align: center;
+    padding: 20px;
+}
+form{
+    width:30%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 4px solid rgb(0, 179, 250);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+form>div{
+    margin : 10px 0px;
+}
+form>div>label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+form>.input-name{
+    font-size: 85%;
+    margin: 20px 0px 0px 10%;
+    text-align: left;
+}
+
+form>input{
+    padding-left: 20px;
+    margin-top: 5px;
+    height: 40px;
+    width:80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.btn{
+    margin-top: 30px;
+    width:80%;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(90deg,#2f66cd,#4db0db 75%,#5ab6de);
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 2px #2f66cd, 0 0 25px #4db0db, 0 0 5px #5ab6de;
+}
+.forget>a{
+    font-size: 100%;
+    color: rgb(77, 77, 77);
+    margin: 10px 10% 0px 70%;
+    text-decoration: none;
+}
+.forget>a:hover{
+    color: rgb(41, 41, 41);
+    text-decoration: underline;
+}
+.input-name{
+    text-align:left;
+    font-size: 85%;
+    margin:20px 0px 15px 35px
+}

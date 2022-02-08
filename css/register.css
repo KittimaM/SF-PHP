@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{width:100%;
+    font-size:120%;
+    text-align: center;
+    background:  url(https://lh3.googleusercontent.com/ff7fflwQyXJXKiG3igJMSTO5mUjFfCsNGKWqG-I4RpEmObMSzbyeoqOY8Nv7tMjVj-LFN31k9xWn95ylnVQ=s0)  center;
+}
+.header{
+    width:30%;
+    margin: 0px auto 0px;
+    color: rgb(33, 110, 255);
+    text-align: center;
+    padding: 20px;
+}
+form{
+    width:30%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgb(70, 187, 233);
+    border-radius: 5px;
+    background-color: white;
+}
+form>div{
+    margin : 10px 0px;
+}
+form>div>label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+form>input{
+    padding-left: 20px;
+    height: 40px;
+    width:80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.btn{
+    font-size: 20px;
+    margin-top: 30px;
+    width:80%;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(90deg,#2f66cd,#4db0db 75%,#5ab6de);
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 2px #2f66cd, 0 0 25px #4db0db, 0 0 5px #5ab6de;
+}
+.forget>a{
+    font-size: 80%;
+    color: gray;
+    margin: 10px 10% 0px 70%;
+}
+.forget>a:hover{
+    color: rgb(41, 41, 41);
+}
+::-webkit-input-placeholder {
+    text-align: left;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 10%;
+    text-align: left;
+}
+.back-in{
+    font-size: 100%;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+.back-in:hover{
+    font-size: 100%;
+    color: black;
+    text-decoration: underline;
+}
+
+.input-name{
+    text-align:left;
+    font-size: 85%;
+    margin:20px 0px 15px 40px
+}
+input:invalid {
+    border-color: #DD2C00;
+}
+.error{
+    color:red;
+    text-align: left;
+    margin-left:20px;
+}
